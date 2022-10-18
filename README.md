@@ -26,10 +26,10 @@ The results for the six machine learning models including their respective balan
 * "Low Risk" had a precision rate of 100% and recall at 66%.
 
 ### Cluster Centroids (Undersampling)
-<img width="828" alt="Screen Shot 2022-10-07 at 10 26 14 PM" src="https://user-images.githubusercontent.com/107584361/194690289-7164911b-c564-4721-b9e7-286e25afdd7d.png">
+<img width="749" alt="Screen Shot 2022-10-17 at 8 10 50 PM" src="https://user-images.githubusercontent.com/107584361/196326864-fd8e312a-3f11-4bfc-8e5a-1a9091dc088a.png">
 
-* Balanced accuracy score: 65%.
-* The "High Risk" precision rate was only 1% with the recall at 61% giving this model an F1 score of 2%.
+* Balanced accuracy score: 53%.
+* The "High Risk" precision rate was only 1% with the recall at 61% giving this model an F1 score of 1%.
 * "Low Risk" had a precision rate of 100% and recall at 45%.
 
 ### SMOTEENN (Combination Sampling)
@@ -56,4 +56,4 @@ The results for the six machine learning models including their respective balan
 ## Summary
 In reviewing all six models, the EasyEnsembleClassifer model yielded the best results with an accuracy rate of 92.54% and a 7% precision rate when predicting "High Risk candidates. The sensitivity rate (recall) was also the highest at 91% compared to the other models. The result for predicting "Low Risk" was also the highest with the sensitivity rate at 94% and an F1 score of 97%. Therefore, if a model needed to be recommended to perform this type of analysis, then this one would be the clear choice.
 
-The only drawback of this model is that with low precision, a lot of low risk credits are still falsely detected as high risk. In this scenario though, it is better for the model to have greater senstivity than precision because the credit card company would rather wrongly classify low risk applicants as high risk, than have high risk applicants classified as low risk.
+The only drawback of this model is that with low precision, a lot of low risk credits are still falsely detected as high risk. In this scenario though, it is better for the model to have greater senstivity than precision. So no model is recommended.
