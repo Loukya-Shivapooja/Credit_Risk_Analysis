@@ -33,7 +33,7 @@ The results for the six machine learning models including their respective balan
 * "Low Risk" had a precision rate of 100% and recall at 45%.
 
 ### SMOTEENN (Combination Sampling)
-<img width="811" alt="Screen Shot 2022-10-07 at 10 31 47 PM" src="https://user-images.githubusercontent.com/107584361/194690414-a9554c7d-3909-48c9-b135-af4e35f1f790.png">
+<img width="753" alt="Screen Shot 2022-10-17 at 8 47 35 PM" src="https://user-images.githubusercontent.com/107584361/196330962-0fc6a629-bfba-4ecd-b5cc-50ba1649df2a.png">
 
 * Balanced accuracy score: 63.75%.
 * The "High Risk" precision rate was only 1% with the recall at 70% giving this model an F1 score of 2%.
